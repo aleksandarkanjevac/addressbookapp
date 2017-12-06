@@ -1,0 +1,197 @@
+html * {
+    font-size: 20px;
+    font-family: 'Cuprum', sans-serif !important;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#uldata {
+    position: absolute;
+    left: 11%;
+    top: 30%;
+}
+
+#skriven,
+#skriven0,
+#skriven1,
+#skriven2,
+#dugme,
+#dugme0,
+#dugme1,
+#dugme2 {
+    display: none;
+}
+
+#jumbo,
+#myForm,
+#login {
+    position: absolute;
+    left: 1%;
+    width: 74%;
+    opacity: 0.9;
+    top: 10%;
+}
+
+#addresses {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#contact {
+    width: 80%;
+    height: 88%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border: 3px solid #e0e0db;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+#data {
+    position: absolute;
+    width: 64%;
+    height: 40%;
+    top: 30%;
+    left: 35%;
+}
+
+.stylish-input-group .input-group-addon {
+    background: white !important;
+}
+
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: #ccc;
+}
+
+.stylish-input-group button {
+    border: 0;
+    background: transparent;
+}
+
+#close {
+    cursor: pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    opacity: 0.5;
+}
+
+#close_statistic {
+    cursor: pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+}
+
+#search {
+    text-decoration: none;
+}
+
+#contactlist,
+#memberlist {
+    text-decoration: none;
+}
+
+#nameList {
+    background-color: #f0f0ef;
+    z-index: 99;
+}
+
+.list:hover {
+    background-color: #c5c5c3;
+    color: white;
+}
+
+.searchref {
+    text-decoration: none;
+}
+
+.searchref:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+}
+
+#alert {
+    display: none;
+    position: absolute;
+    top: 10%;
+}
+
+#del {
+    position: absolute;
+    margin-right: 5%;
+    width: 50px;
+    height: 50px;
+    color: red;
+    border-radius: 5px;
+    bottom: 7%;
+    right: 1%;
+}
+
+#con_img {
+    width: 40%;
+    height: 50%;
+    top: 10%;
+    position: relative;
+}
+
+.contact_name {
+    color: whitesmoke;
+    background-color: red;
+    border-top-left-radius: 5px;
+}
+
+.form {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.mssg {
+    color: green;
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+#row{
+
+    z-index: 99;
+}
+
+#tabela{
+    background-color: lightgray !important;
+    border-radius: 5px;
+    color:black;
+}
+.glyphicon{
+    color:green !important;
+}
+.active a{
+    background-color:red !important;
+}
